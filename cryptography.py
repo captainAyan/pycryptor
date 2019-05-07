@@ -2,8 +2,9 @@
 class Cryptography:
 
     @staticmethod
-    def encrypt(f_data, password):
-        return password + " " + f_data
+    def encrypt(file, password):
+        # byte_array_file = bytes.fromhex(file)
+        return file
 
     @staticmethod
     def decrypt(f_cipher, password):
